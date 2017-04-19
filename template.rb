@@ -10,7 +10,7 @@ git commit: '-m "before template"'
   rack-cors
   debug
   mutations
-  rubocop
+  linters
   rspec
   factory_girl
   ams
@@ -19,7 +19,7 @@ git commit: '-m "before template"'
   devise
   dotenv
 ].each do |recipe|
-  apply_recipe recipe if yes_wizzard?("Do you apply #{recipe}?")
+  apply_recipe recipe if yes_wizard?("Do you apply #{recipe}?")
 end
 
 after_bundle do

@@ -6,7 +6,3 @@ gem_group :development, :test do
   gem 'pry-doc'
   gem 'awesome_print'
 end
-
-gem_group :development do
-  gem 'quiet_assets'
-end
